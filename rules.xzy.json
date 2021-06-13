@@ -24,7 +24,44 @@
 						"\u200f",
 						"\u202c",
 						"\u0e31",
-						"\u0e4b"
+						"\u0e4b",
+						"\u0e47",
+						"\u0e37",
+						"\u0e3a"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "Verifiers",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"Verify me"
+					]
+				}
+			}
+		},
+		{
+			"actions": {
+				"mark": [
+					"cheater"
+				]
+			},
+			"description": "Valve Gape Newells",
+			"triggers": {
+				"username_text_match": {
+					"case_sensitive": false,
+					"mode": "contains",
+					"patterns": [
+						"[VALVE]"
 					]
 				}
 			}
@@ -49,6 +86,7 @@
 					}
 				]
 			}
-		}
+		},
+		
 	]
 }
